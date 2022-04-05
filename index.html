@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Première démo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="divSaisie">
+            <div>
+                <label for="libelleSavoir">Savoir :</label>
+                <input type="text" id="libelleSavoir">
+            </div>
+            <div>
+                <label for="libelleAuteur">Auteur :</label>
+                <input type="text" id="libelleAuteur">
+            </div>
+            <div>
+                <label for="date">Date :</label>
+                <input type="date" id="date">
+            </div>
+            <div>
+                <button onclick="ajouter();">Ajouter</button>
+            </div>
+        </div>
+        
+        <div id="divResultat">
+            <ol id="olListeSavoir">
+
+            </ol>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
