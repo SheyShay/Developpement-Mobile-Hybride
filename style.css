@@ -4,6 +4,10 @@ input{
 li{
     cursor: pointer;
 }
+
+li:hover{
+    background-color: #CCCCCC;
+}
 .savoir
 {
     font-size: xx-large;
